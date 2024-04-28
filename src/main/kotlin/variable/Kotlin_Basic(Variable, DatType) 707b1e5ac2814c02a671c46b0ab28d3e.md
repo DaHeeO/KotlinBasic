@@ -7,7 +7,6 @@
 
 ## 변수의 선언
 
----
 
 **코틀린에서 변수의 선언은 `val` 과 `var` 을 사용합니다.**
 
@@ -37,7 +36,6 @@ println("print value: $variable")
 
 ## Data Type
 
----
 
 코틀린은 **Reference Data Type**을 사용합니다.
 
@@ -56,7 +54,6 @@ Reference Data Type 은 객체(메모리)를 생성하고 **데이터를 할당*
 
 ### 숫자형 데이터 타입 (Number)
 
----
 
 1. **정수형 데이터 타입**
     - `Long` (64 bits), `int` (32 bits), `Short` (16 bits), `Byte` (8 bits)
@@ -70,14 +67,12 @@ Reference Data Type 은 객체(메모리)를 생성하고 **데이터를 할당*
 
 ### 논리형 데이터 타입(Boolean)
 
----
 
 1. **논리형 데이터 타입**
     - Boolean : `true` , `false`
 
 ### 문자, 문자열 데이터 타입(Char, String)
 
----
 
 1. **문자 데이터 타입**
     - `Char` (16 bits)
@@ -96,7 +91,6 @@ var b: Char = 3 // (X)
 
 ## companion object
 
----
 
 이런 코드가 있다고 가정하자. 가장 기본적인 코드이다. 
 
@@ -141,7 +135,6 @@ public final class Basic {
 
 ## `@JVMStatic`
 
----
 
 ```kotlin
 class Basic {
