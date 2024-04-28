@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="771f838c-492b-4348-9a72-132ee0e80b0c" name="Changes" comment="data type">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/operator/ArithmeticOperator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/operator/ArithmeticOperator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,10 @@
   "keyToString": {
     "Gradle.Build KotlinBasic.executor": "Run",
     "Kotlin.ArithmeticOperator.executor": "Run",
+    "Kotlin.ComparisonOperator.executor": "Run",
     "Kotlin.DataTypeSample.executor": "Run",
+    "Kotlin.IncrementOperator.executor": "Run",
+    "Kotlin.LogicalOperator.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "Kotlin.VariableSample.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -99,7 +102,7 @@
       <workItem from="1713095935577" duration="2458000" />
       <workItem from="1713590567998" duration="4167000" />
       <workItem from="1713612035152" duration="2091000" />
-      <workItem from="1714290892506" duration="1536000" />
+      <workItem from="1714290892506" duration="3367000" />
     </task>
     <task id="LOCAL-00001" summary="m">
       <option name="closed" value="true" />
