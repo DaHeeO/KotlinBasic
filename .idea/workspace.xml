@@ -21,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Kotlin File" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -63,10 +64,15 @@
     "Kotlin.ArithmeticOperator.executor": "Run",
     "Kotlin.ComparisonOperator.executor": "Run",
     "Kotlin.DataTypeSample.executor": "Run",
+    "Kotlin.ForSample.executor": "Run",
+    "Kotlin.IfSample.executor": "Run",
     "Kotlin.IncrementOperator.executor": "Run",
     "Kotlin.LogicalOperator.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
+    "Kotlin.TestKt.executor": "Run",
     "Kotlin.VariableSample.executor": "Run",
+    "Kotlin.WhenSample.executor": "Run",
+    "Kotlin.WhileSample.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -102,7 +108,7 @@
       <workItem from="1713095935577" duration="2458000" />
       <workItem from="1713590567998" duration="4167000" />
       <workItem from="1713612035152" duration="2091000" />
-      <workItem from="1714290892506" duration="3367000" />
+      <workItem from="1714290892506" duration="7908000" />
     </task>
     <task id="LOCAL-00001" summary="m">
       <option name="closed" value="true" />
