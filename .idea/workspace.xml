@@ -6,6 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="771f838c-492b-4348-9a72-132ee0e80b0c" name="Changes" comment="data type">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/ClassSample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/ClassSample.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/Person.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/Person.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/PersonWithConstructor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/PersonWithConstructor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/condition/IfSample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/condition/IfSample.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/condition/WhenSample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/condition/WhenSample.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/function/functionSample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/function/FunctionSample.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/loop/ForSample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/loop/ForSample.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/loop/WhileSample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/loop/WhileSample.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/operator/ArithmeticOperator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/operator/ArithmeticOperator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/operator/AssignmentOperator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/operator/AssignmentOperator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/operator/ComparisonOperator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/operator/ComparisonOperator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/operator/IncrementOperator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/operator/IncrementOperator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/operator/LogicalOperator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/operator/LogicalOperator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/variable/DataTypeSample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/variable/DataTypeSample.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/variable/VariableSample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/variable/VariableSample.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +34,42 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="KotlinBasic" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="KotlinBasic" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="KotlinBasic" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="formatting" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="KotlinBasic" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -64,6 +118,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Build KotlinBasic.executor": "Run",
+    "Gradle.KotlinBasic [ktlintCheck].executor": "Run",
+    "Gradle.KotlinBasic [ktlintFormat].executor": "Run",
     "Kotlin.ArithmeticOperator.executor": "Run",
     "Kotlin.ClassSampleKt.executor": "Run",
     "Kotlin.ComparisonOperator.executor": "Run",
@@ -92,7 +148,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Kotlin",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -101,7 +157,51 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ClassSampleKt">
+  <component name="RunManager" selected="Kotlin.MainKt">
+    <configuration name="KotlinBasic [ktlintCheck]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="ktlintCheck" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="KotlinBasic [ktlintFormat]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="ktlintFormat" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="ClassSampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.classes.ClassSampleKt" />
       <module name="KotlinBasic.main" />
@@ -116,8 +216,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MainKt" />
+      <module name="KotlinBasic.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Gradle.KotlinBasic [ktlintFormat]" />
+        <item itemvalue="Gradle.KotlinBasic [ktlintCheck]" />
         <item itemvalue="Kotlin.ClassSampleKt" />
         <item itemvalue="Kotlin.FunctionSampleKt" />
       </list>
@@ -143,7 +253,7 @@
       <workItem from="1713612035152" duration="2091000" />
       <workItem from="1714290892506" duration="8863000" />
       <workItem from="1714533671860" duration="2864000" />
-      <workItem from="1714537071995" duration="2161000" />
+      <workItem from="1714537071995" duration="3718000" />
     </task>
     <task id="LOCAL-00001" summary="m">
       <option name="closed" value="true" />
