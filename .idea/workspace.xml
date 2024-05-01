@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="771f838c-492b-4348-9a72-132ee0e80b0c" name="Changes" comment="data type">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/function/functionSample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/function/functionSample.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +46,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/kotlin/Main.kt" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
@@ -62,6 +65,7 @@
   "keyToString": {
     "Gradle.Build KotlinBasic.executor": "Run",
     "Kotlin.ArithmeticOperator.executor": "Run",
+    "Kotlin.ClassSampleKt.executor": "Run",
     "Kotlin.ComparisonOperator.executor": "Run",
     "Kotlin.DataTypeSample.executor": "Run",
     "Kotlin.ForSample.executor": "Run",
@@ -92,7 +96,19 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.ClassSampleKt">
+    <configuration name="ClassSampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.classes.ClassSampleKt" />
+      <module name="KotlinBasic.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FunctionSampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.function.FunctionSampleKt" />
       <module name="KotlinBasic.main" />
@@ -102,6 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ClassSampleKt" />
         <item itemvalue="Kotlin.FunctionSampleKt" />
       </list>
     </recent_temporary>
@@ -125,7 +142,8 @@
       <workItem from="1713590567998" duration="4167000" />
       <workItem from="1713612035152" duration="2091000" />
       <workItem from="1714290892506" duration="8863000" />
-      <workItem from="1714533671860" duration="2561000" />
+      <workItem from="1714533671860" duration="2864000" />
+      <workItem from="1714537071995" duration="2161000" />
     </task>
     <task id="LOCAL-00001" summary="m">
       <option name="closed" value="true" />
