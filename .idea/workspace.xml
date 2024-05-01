@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="771f838c-492b-4348-9a72-132ee0e80b0c" name="Changes" comment="data type">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +66,7 @@
     "Kotlin.ComparisonOperator.executor": "Run",
     "Kotlin.DataTypeSample.executor": "Run",
     "Kotlin.ForSample.executor": "Run",
+    "Kotlin.FunctionSampleKt.executor": "Run",
     "Kotlin.IfSample.executor": "Run",
     "Kotlin.IncrementOperator.executor": "Run",
     "Kotlin.LogicalOperator.executor": "Run",
@@ -87,9 +89,24 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="FunctionSampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.function.FunctionSampleKt" />
+      <module name="KotlinBasic.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.FunctionSampleKt" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -108,7 +125,8 @@
       <workItem from="1713095935577" duration="2458000" />
       <workItem from="1713590567998" duration="4167000" />
       <workItem from="1713612035152" duration="2091000" />
-      <workItem from="1714290892506" duration="7908000" />
+      <workItem from="1714290892506" duration="8863000" />
+      <workItem from="1714533671860" duration="2420000" />
     </task>
     <task id="LOCAL-00001" summary="m">
       <option name="closed" value="true" />
