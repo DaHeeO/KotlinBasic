@@ -434,3 +434,123 @@ do {
     val y = retrieveData()
 } while (y != null) // y is visible here!
 ```
+
+
+# 004 Function
+## 함수(Function)
+
+
+함수는 `input` 값을 받아 **일련의 기능을 수행**하는 코드 구성을 의미합니다.
+함수는 결과물을 돌려주거나 돌려주지 않을 수 있습니다.
+
+### 함수의 선언
+
+
+함수의 선언은 아래와 같은 형식으로 작성할 수 있습니다.
+
+- 함수 선언 형식
+    
+    ```kotlin
+    fun 함수명(인자: 타입, 인자: 타입): return 타입 {
+    	return 리턴값
+    }
+    ```
+    
+- 기본형
+    - return 타입 명시하는경우 `function` 에도 `colone` 을 붙여야 한다
+    
+    ```kotlin
+    fun sum(a: Int, b: Int): Int {
+    	return a + b
+    }
+    
+    // return 을 생략한 표현식도 가능
+    fun sum2(a: Int b: Int) = a+b
+    ```
+    
+- 리턴값이 없을때 ( `void` )
+    
+    ```kotlin
+    fun noReturnFunction(a: String) {
+    	println("called")
+    }
+    ```
+    
+- 전달 받는 **파라미터는 기본 값**을 사용할 수 있습니다 (`default value`)
+    
+    ```kotlin
+    fun defaultParameter(a: String = "default value") {
+    	println(a)
+    }
+    ```
+    
+- 넘겨야 하는 값이 많을 경우 **매개변수의 이름을 직접 명시**하여 가독성을 높일 수 있습니다.
+    
+    ```kotlin
+    fun main() {
+    	namedArgument(a = "around", c = "studio", b = "hub")
+    }
+    
+    fun namedArgument(a: String, b: String, c: String) {
+    	println("$a $b $c")
+    }
+    ```
+    
+
+JAVA와 다르게 Kotlin은 꼭 매개변수의 순서 보장을 할 필요가 없고, 파라미터의 기본값을 설정 할 수 있습니다.
+
+
+# 005 Class
+
+## 클래스 (Class)
+
+
+코틀린의 클래스는 아래와 같은 키워드를 사용하여 선언됩니다.
+
+```kotlin
+class Person {/*..*/}
+```
+
+클래스의 선언은 클래스 이름을 포함하여 매개변수, 생성자, 그리고 중괄호로 묶인 본론으로 구성됩니다.
+
+```kotlin
+class Person {
+	var name: String = "Dahee"
+	var age:Int = 26
+	var country: String = "Korea"
+	var height: Int = 164
+	var weight: Int = 60
+	
+	fun sayHello() {
+		println("Hi")
+	}
+	
+	fun introduce() {
+		println("I'm $name and my age is $age.")
+	}
+}
+```
+
+## 생성자 (Constructor)
+
+
+코틀린의 생성자는 아래와 같은 형식으로 구성할 수 있습니다.
+
+```kotlin
+class PersonWithConstructor constructor(private val name: String, private val age: Int) { // main constructor
+	
+	constructor(name: String): this(name, 15) // sub constructor
+	
+	constructor(name: String, age: Int, etc: String): this(name, age) { // additional constructor
+		println("additional constructor is called: $etc")
+	}
+	
+	fun sayHello() {
+		println("HI")
+	}
+	
+	fun introduce() {
+		println("I'm $name and my age is $age.")
+	}
+}
+```
