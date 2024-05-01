@@ -14,7 +14,6 @@ fun sum1(a: Int, b: Int): Int {
 }
 
 fun sum2(a: Int, b: Int) = a + b
-
 fun noReturnFunction(a: String) {
     println("noReturnFunction : $a")
 }
