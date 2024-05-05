@@ -57,8 +57,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -105,7 +105,9 @@
     "Kotlin.ArithmeticOperator.executor": "Run",
     "Kotlin.ClassSampleKt.executor": "Run",
     "Kotlin.ComparisonOperator.executor": "Run",
+    "Kotlin.DataClassSampleKt.executor": "Run",
     "Kotlin.DataTypeSample.executor": "Run",
+    "Kotlin.EnumSampleKt.executor": "Run",
     "Kotlin.ForSample.executor": "Run",
     "Kotlin.FunctionSampleKt.executor": "Run",
     "Kotlin.IfSample.executor": "Run",
@@ -140,7 +142,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.InheritanceSampleKt">
+  <component name="RunManager" selected="Kotlin.EnumSampleKt">
     <configuration name="KotlinBasic [ktlintCheck]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -163,30 +165,15 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="KotlinBasic [ktlintFormat]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="ktlintFormat" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
+    <configuration name="DataClassSampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dataclass.DataClassSampleKt" />
+      <module name="KotlinBasic.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="ClassSampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.classes.ClassSampleKt" />
+    <configuration name="EnumSampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.enum.EnumSampleKt" />
       <module name="KotlinBasic.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -208,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.EnumSampleKt" />
+        <item itemvalue="Kotlin.DataClassSampleKt" />
         <item itemvalue="Kotlin.InheritanceSampleKt" />
         <item itemvalue="Gradle.KotlinBasic [ktlintCheck]" />
         <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="Gradle.KotlinBasic [ktlintFormat]" />
-        <item itemvalue="Kotlin.ClassSampleKt" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +228,8 @@
       <workItem from="1714546424690" duration="3214000" />
       <workItem from="1714656515332" duration="1346000" />
       <workItem from="1714662092725" duration="2000" />
-      <workItem from="1714822091167" duration="1618000" />
+      <workItem from="1714822091167" duration="3790000" />
+      <workItem from="1714900112081" duration="1770000" />
     </task>
     <task id="LOCAL-00001" summary="m">
       <option name="closed" value="true" />
