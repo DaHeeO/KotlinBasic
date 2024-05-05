@@ -554,3 +554,156 @@ class PersonWithConstructor constructor(private val name: String, private val ag
 	}
 }
 ```
+
+# 006 Inheritance
+
+## 상속(Inheritance)
+
+
+상속은 **상위 클래스에 중복되는 로직을 구현하고 이를 재사용하는 것**을 의미합니다.
+
+상속의 관계를 흔히 `부모 - 자식` 클래스라고도 부르며 `Is - a` 관계라고도 부릅니다.
+
+ex). Person(parent) - Student(child)
+
+## 코틀린의 상속
+
+
+코틀린에서는 모든 클래스가 `Any` 를 상속 받고 있는 구조입니다.
+
+`Any` 에서는 `equals()` , `hashCode()` , `toString()` 이 구현되어 있습니다.
+
+`Any` Interface 예시 
+
+```kotlin
+public open class Any {
+
+	public open operator fun equals(other: Any?): Boolean
+	
+	public open fun hashCode(): Int
+	
+	public open fun toString(): String
+}
+```
+
+### 부모 class
+
+
+부모 클래스는 `open` 키워드를 사용하여 상속을 허용할 수 있습니다.
+
+```kotlin
+open class Car(val name: String, val price: Double, val brand: String) {
+
+	fun introduce() {
+		println("this car is $name. this is made by $brand.")
+	}
+	
+	fun howMuch() {
+		println("this car is $price dollars")
+	}
+	
+}
+```
+
+메소드 또한 **override** 할 수 있게 `open` 키워드를 사용할 수 있습니다.
+
+```kotlin
+open class Car(val name: String, val price: Double, val brand: String) {
+
+	open fun myPurchaseDate() {
+		println("you don't buy yet")
+	}
+	
+}
+```
+
+### 자식 class
+
+
+상속을 받는 자식 클래스는 아래와 같은 형식으로 상속을 받습니다.
+
+```kotlin
+class MyCar(name: String, price: Double, brand: String, val purchaseDate: LocalDate): Car(name, price, brand) {
+
+}
+```
+
+메소드 오버라이드는 아래와 같이 구현합니다.
+
+```kotlin
+class MyCar(name: String, price: Double, brand: String, val purchaseDate: LocalDate): Car(name, price, brand) {
+
+	override fun myPurchaseDate() {
+		println("you made a purchase on $purchaseDate")
+	}
+	
+}
+```
+
+# 007 Data Class
+
+## 데이터 클래스 (Data Class)
+
+
+일반적으로 레이어간 데이터 전달을 위해 `DTO` : **Data Transfer Object** 라는 객체를 생성하여 사용합니다.
+
+코틀린에서는 이러한 역할을 수행할 수 있는 `데이터 클래스` 를 제공합니다.
+
+데이터 클래스를 사용하면 아래와 같은 메소드를 자동으로 생성해 줍니다.
+
+- `equals()`
+- `getter / setter`
+- `hashCode()`
+- `toString()`
+- `copy()`
+- `componentN()`
+
+### Data Class 생성
+
+
+코틀린에서 데이터 클래스는 아래와 같은 형식으로 정의할 수 있습니다.
+
+```kotlin
+data class DataClassSample(val name: String, val age: Int)
+```
+
+> 클래스 앞에 `data` 키워드를 붙여 정의합니다.
+> 
+
+
+# 008 Enum Class
+
+## 열거형 클래스 (Enumeration Class = Enum Class)
+
+
+우리는 Enum 클래스를 사용하여 일정 범주 안에 들어갈 수 있는 상수들을 묶어 관리할 수 있습니다.
+
+**Enum 클래스를 사용하는 이유**
+
+- 코드가 단순해지고, 가독성이 좋아짐
+- 인스턴스의 생성과 상속 등을 방지하고 타입 안정성을 보장함
+
+### Enum Class 생성
+
+
+Enum 클래스는 아래와 같이 구현할 수 있습니다.
+
+```kotlin
+enum class Color(val label: String, val code: String) {
+	Red("red", "#FE2E2E"),
+	YELLOW("yellow", "#F7FE2E"),
+	GREEN("green", "#40FF00"),
+	BLUE("blue", "#0000FF");
+}	
+```
+
+이렇게 선언된 클래스는 아래와 같이 활용 할 수 있습니다.
+
+```kotlin
+val red = Color.RED
+println(red)
+println(red.label)
+println(red.code)
+```
+
+이 외에도 각 타입마다 함수를 구현하여 기능을 동작하게 할 수 있습니다.
